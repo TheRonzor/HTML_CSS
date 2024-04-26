@@ -28,9 +28,11 @@
     --header-font: 'Times New Roman', Times, serif
 }
 
+
 html {
     margin: 20px;
     padding: 0px;
+    height: 100%
 }
 
 div {
@@ -41,7 +43,9 @@ body {
     background-color: var(--back);
     color: var(--front);
     /*font-family: 'Times New Roman', Times, serif;*/
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%
 }
 
 h1 {
@@ -53,6 +57,7 @@ h2 {
 }
 
 /* Probably not great for this page, but just to demonstrate... */
+
 /*
 p {
     column-count: 2;
@@ -69,6 +74,10 @@ a:visited {
     color:var(--link-visisted);
 }
 
+.iframe-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: blue; overflow: hidden;}
+.first-row {background-color: lime; }
+.iframe-full {flex-grow: 1; border: none; margin: 0; padding: 0;}
+
 .img-centered {
     width: var(--img-width); 
     display: block; 
@@ -80,5 +89,5 @@ a:visited {
     width: var(--caption-width); 
     margin-left: auto; 
     margin-right: auto;
-    font-size: smaller;
+    font-size: small;
 }
