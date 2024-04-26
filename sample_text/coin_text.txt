@@ -1,7 +1,11 @@
-Disclaimer: this is all plagarized from wikipedia!!!
+title = Tossing Coints
+
+
+(h1) All About Coin Tossing
 
 
 
+(h2) Definition
 Coin flipping, coin tossing, or heads or tails is the practice of throwing a coin in the air and checking which side is showing when it lands, in order to choose between two alternatives, heads or tails, sometimes used to resolve a dispute between two parties. It is a form of sortition which inherently has two possible outcomes. The party who calls the side that the coin lands on wins.
 
 
@@ -10,6 +14,10 @@ The historical origin of coin flipping is the interpretation of a chance outcome
 
 Coin flipping was known to the Romans as navia aut caput ("ship or head"), as some coins had a ship on one side and the head of the emperor on the other. In England, this was referred to as cross and pile.
 
+(image and caption with class p-caption)
+A Roman coin with the head of <a href="https://en.wikipedia.org/wiki/Sextus_Pompey">Pompey the Great</a> on the obverse and a ship on the reverse.
+
+
 Process
 During a coin toss, the coin is thrown into the air such that it rotates edge-over-edge several times. Either beforehand or when the coin is in the air, an interested party calls "heads" or "tails", indicating which side of the coin that party is choosing. The other party is assigned the opposite side. Depending on custom, the coin may be caught; caught and inverted; or allowed to land on the ground. When the coin comes to rest, the toss is complete and the party who called correctly or was assigned the upper side is declared the winner.
 
@@ -17,8 +25,10 @@ It is possible for a coin to land on its side, usually by landing up against an 
 
 The coin may be any type as long as it has two distinct sides; it need not be a circulating coin as such. Larger coins tend to be more popular than smaller ones. Some high-profile coin tosses, such as the Cricket World Cup and the Super Bowl, use custom-made ceremonial medallions.
 
-Three-way
-Three-way coin flips are also possible, by a different process – this can be done either to choose two out of three, or to choose one out of three. To choose two out of three, three coins are flipped, and if two coins come up the same and one different, the different one loses (is out), leaving two players. To choose one out of three, the previous is either reversed (the odd coin out is the winner) or a regular two-way coin flip between the two remaining players can decide. Note that the three-way flip is 75% likely to work each time it is tried (if all coins are heads or all are tails, each of which occur 1/8 of the time due to the chances being 0.5 by 0.5 by 0.5, the flip is repeated until the results differ), and does not require that "heads" or "tails" be called. A well-known example of such a three-way coin flip (choose two out of three) is dramatized in Friday Night Lights (originally a book, subsequently film and TV series), wherein three Texas high school football teams use a three-way coin flip. A legacy of that particular 1988 coin flip was to reduce the use of coin flips to break ties in Texas sports, instead using point systems to reduce the frequency of ties.
+
+(figure and caption)
+The figure above shows 1000 simulated tosses of 100 fair coins, where each head counts as +1, and each tail counts as -1. A randomly selected trajectory is shown in <span style="color: blue;">blue</span>.
+
 
 Use in dispute resolution
 Coin tossing is a simple and unbiased way of settling a dispute or deciding between two or more arbitrary options. In a game theoretic analysis it provides even odds to both sides involved, requiring little effort and preventing the dispute from escalating into a struggle. It is used widely in sports and other games to decide arbitrary factors such as which side of the field a team will play from, or which side will attack or defend initially; these decisions may tend to favor one side, or may be neutral. Factors such as wind direction, the position of the sun, and other conditions may affect the decision. In team sports it is often the captain who makes the call, while the umpire or referee usually oversees such proceedings. A competitive method may be used instead of a toss in some situations, for example in basketball the jump ball is employed, while the face-off plays a similar role in ice hockey.

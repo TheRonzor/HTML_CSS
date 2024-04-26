@@ -1,4 +1,4 @@
-/* Now suppose you had many pages, or many different containers that might need to change at once... define some variables!*/
+/* Ron's example stylesheet */
 
 :root {
     
@@ -18,13 +18,12 @@
     
 
     --img-width: 700px;
-    /* We can do some basic math within CSS.  I think that's most-browser compatible? */
+    /* We can do some basic math within CSS*/
     /*--caption-width: 600px*/
     --caption-width: calc(var(--img-width) - 100px);
     --div-space: 100px;
 
     /*--header-font: Arial, Helvetica, sans-serif*/
-    /* Good old serif fonts just look better I think! */
     --header-font: 'Times New Roman', Times, serif
 }
 
@@ -32,7 +31,7 @@
 html {
     margin: 20px;
     padding: 0px;
-    height: 100%
+    
 }
 
 div {
@@ -44,8 +43,7 @@ body {
     color: var(--front);
     /*font-family: 'Times New Roman', Times, serif;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 100%;
-    width: 100%
+    padding-bottom: 20px
 }
 
 h1 {
@@ -74,9 +72,14 @@ a:visited {
     color:var(--link-visisted);
 }
 
-.iframe-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: blue; overflow: hidden;}
-.first-row {background-color: lime; }
-.iframe-full {flex-grow: 1; border: none; margin: 0; padding: 0;}
+iframe {
+    display: block;
+    border: 0;
+    width: var((--img-width));
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .img-centered {
     width: var(--img-width); 
